@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
-=======
 import _ from 'lodash';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
@@ -67,5 +62,5 @@ class App extends Component {
 }
 
 // Take this component's generated HTML and put it in the page (in the DOM)
-ReactDOM.render(<App />, document.querySelector('.container'));
->>>>>>> 6f03654500e990d1d105ec3d132a4c11a2deb237
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
