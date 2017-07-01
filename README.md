@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
@@ -23,3 +24,7 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm install
 > npm start
 ```
+=======
+# ReactReduxStarterApp
+Simple app to fetch videos using youtube api and display them
+>>>>>>> 895a80c4664a460481fb8dffd4ca1747bed5f339
